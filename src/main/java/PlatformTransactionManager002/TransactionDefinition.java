@@ -28,6 +28,43 @@ public interface TransactionDefinition {
 	 * */
 	//(1)PROPAGATION_REQUIRED如果存在一个事务,则支持当前事务.如果没有,则开启一个新的事务
 	//PROPAGATION_REQUIRED
-	 public void A();
+	 /**methodA{
+	  * 
+	  * metodB();
+	  * 
+	  * 
+	  * }
+	  * */
+	//使用springAop声明式事务管理,会根据事务属性,自动选择在方法调用之前选择是否开启一个事务或者在方法执行之后是否回滚或者提交事务
+	
+	//单独调用methodB();
+	
+	/**
+	 * main{
+	 * 	method();
+	 * 
+	 * }
+	 * */
+	//等同于
+	/***
+	 * 
+	 * Main{
+	 * 	Connection conn = null;
+	 * 	try{
+	 * 	conn = getConnection();
+	 * 	conn.setAutoCommit(false);
+	 * }
+	 * 
+	 * 
+	 * 
+	 * 
+	 * }
+	 * 
+	 * /
+	
+	//(2)PROPAGATION_SUPPORTS表示当前方法不需要事务上下文,但是如果存在当前事务,该方法还是会在事务中运行
+	/**
+	 * 
+	 * */
 
 }
