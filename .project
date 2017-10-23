@@ -39,4 +39,11 @@
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>redis驱动包</name>
+			<type>2</type>
+			<location>C:/Users/zhonghua/Desktop/redis驱动包</location>
+		</link>
+	</linkedResources>
 </projectDescription>

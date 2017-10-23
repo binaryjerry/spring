@@ -17,6 +17,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="src" path="redis驱动包"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
@@ -30,5 +31,6 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="E:/apache-tomcat-6.0.41/lib/jsp-api.jar"/>
 	<classpathentry kind="lib" path="E:/apache-tomcat-6.0.41/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="redis驱动包/jedis-2.9.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

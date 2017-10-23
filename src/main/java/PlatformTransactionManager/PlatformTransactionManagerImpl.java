@@ -20,7 +20,7 @@ public class PlatformTransactionManagerImpl implements PlatformTransactionManage
 
 	@Override
 	/**
-	 * PlatformTransactionManager接口实现类通过getTransaction方法获取TransactionDefinition的参数
+	 * PlatformTransactionManager接口实现类通过getTransaction方法获取TransactionDefinition的参数 
 	 * 
 	 * */
 	public TransactionStatus getTransaction(TransactionDefinition arg0)
